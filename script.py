@@ -6,16 +6,15 @@ import os
 import pywhatkit as kit
 
 # Read Excel File
-for i in range(1,5):
-    addr = f"E:/Python Programs/Maybe Advanced/whatsapp check/details{i}.xlsx"
-    df = pd.read_excel(addr, skiprows=2)
-    df.columns = df.columns.str.strip()
+for i in range(1,5):                # Number of files in your Folder
+    addr = f"Your_File_address_{i}.xlsx"
+    df = pd.read_excel(addr, skiprows=2)  # U can skip number of rows that are used as heading if needed
     print(df.columns.tolist())
 
     df.columns = df.columns.str.strip()  # Remove extra spaces
-    df = df.filter(items=[
+    df = df.filter(items=[               # Choose only the rewuired columns
         "Cell No", "Name", "Desig", "per month salary", "w.days", 
-        "Basic pay", "HRA", "Spl. Allo", "Earnings", "pf", "esi", 
+        "Basic pay", "HRA", "Spl. Allo", "Earnings", "pf", "esi",             
         "adv", "mess", "store", "other", "EB", "Total Dedu", "Net"
     ])
 
