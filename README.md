@@ -18,19 +18,15 @@ This project automates the process of sending customized messages via WhatsApp D
 ## 🛠️ Tech Stack
 
 - **Language:** Python 3.x
-- 
+ 
 - **Libraries:** 
   - `pandas` – for reading Excel files
   - `pyautogui` – for GUI automation
   - `pyperclip` – to copy/paste message text
   - `datetime` – for date formatting
   - `time` – for delays and synchronization
-  - 
+  
 - **Deployment Tool:** : PyInstaller
-
----
-
-## 📁 File Structure
 
 ---
 
