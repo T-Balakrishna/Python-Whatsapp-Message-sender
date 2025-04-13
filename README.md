@@ -1,4 +1,4 @@
-# Python integrated WhatsApp Automatic Message Sender 📤
+# Python integrated Automatic WhatsApp Message Sender 📤
 
 This project automates the process of sending customized messages via WhatsApp Desktop using Python. It reads data from an Excel sheet and sends messages to specified phone numbers using the WhatsApp desktop app.
 
